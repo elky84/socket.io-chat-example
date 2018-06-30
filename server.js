@@ -22,6 +22,11 @@ io.on('connection', function(socket){
     console.log(msg);
     io.emit('receive message', msg);
   });
+
+  socket.on('change name', function(req_name){
+    console.log("change name: " + req_name);
+    io.emit('change name', req_name);
+  });
 });
 
 http.listen('3000', function(){

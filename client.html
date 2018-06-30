@@ -19,11 +19,19 @@
       <input id="message" class="message" type="text">
       <input type="submit" class="chat" value="chat"/>
     </form>
+    <form id="change_name">
+        <input id="req_name" class="name" type="text">
+      <input type="submit" class="button" value="change_name"/>
+    </form>
     <div id="box" class="box">
     <script src="/socket.io/socket.io.js"></script>
     <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
     <script>
       var socket = io();
+      $('#change_name').on('submit', function(e){
+        socket.emit('change name', $('#req_name').val());
+        e.preventDefault();
+      }); 
       $('#chat').on('submit', function(e){
         socket.emit('send message', $('#name').val(), $('#message').val());
         $('#message').val("");
