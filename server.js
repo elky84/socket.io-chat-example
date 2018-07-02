@@ -25,7 +25,7 @@ io.on('connection', function(socket){
 
   socket.on('change name', function(req_name){
     console.log("change name: " + req_name);
-    io.emit('change name', req_name);
+    io.to(socket.id).emit('change name', req_name);
   });
 });
 
