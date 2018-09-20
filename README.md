@@ -1,3 +1,4 @@
 # nodejs_chat_server
 
-nodejs chatting sample.
+nodejs (with socket.io) chatting sample.
+
