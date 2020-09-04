@@ -11,7 +11,7 @@
 ![GitHub repo size in bytes](https://img.shields.io/github/repo-size/elky84/nodejs_chat_server.svg)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/elky84/nodejs_chat_server.svg)
 
-# nodejs_chat_server
+# nodejs-chat-server
 
 nodejs (with socket.io) chatting sample.
 
