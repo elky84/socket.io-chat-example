@@ -1,6 +1,6 @@
 [![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=elky-essay)](https://elky84.github.io)
-<img src="https://img.shields.io/badge/made%20with-JavaScript-brightgreen.svg" alt="made with JavaScript">
-<img src="https://img.shields.io/badge/made%20with-Node.js-green.svg" alt="made with Node.js">
+![Made with](https://img.shields.io/badge/made%20with-JavaScript-brightgreen.svg)
+![Made with](https://img.shields.io/badge/made%20with-Node.js-green.svg)
 
 ![GitHub forks](https://img.shields.io/github/forks/elky84/socket.io-chat-example.svg?style=social&label=Fork)
 ![GitHub stars](https://img.shields.io/github/stars/elky84/socket.io-chat-example.svg?style=social&label=Stars)
